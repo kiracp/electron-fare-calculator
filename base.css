@@ -1,0 +1,9 @@
+html {
+  padding:25px;
+  background-color: #eee;
+  font-family: Helvetica, Arial, sans-serif;
+  cursor:pointer;
+}
+::-webkit-scrollbar {
+  width: 0 !important;
+}
