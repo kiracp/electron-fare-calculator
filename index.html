@@ -24,6 +24,7 @@
         </div>
         <input type="submit" name="submit" value="Calculate" style="float:right; margin-left:auto"/>
       </div>
+      <div id="answer"></div>
     </form></div>
     
   </body>
@@ -34,6 +35,8 @@
       var numRides = document.getElementById("numRides").value;
       var newCard = document.getElementById("newCard").value;
       console.log(x, numRides, newCard);
+      var node = document.createTextNode(x);
+      document.getElementById("answer").appendChild(node);
     }
   </script>
 </html>
