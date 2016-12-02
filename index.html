@@ -8,22 +8,28 @@
   <body>
     
 
-    <div class="container"><form>
+    <div class="container"><form onsubmit="calculateFare()">
       <h2>How much do I load?</h2>
       <div class="row">
-        Number of rides? <input type="number" min="1" step="1" name="numRides"/>
+        Number of rides? <input id="numRides" type="number" min="1" step="1" name="numRides"/>
       </div>
       <div class="row">
-        Total amount: <input type="number" min="2.75" step="0.01" name="totalAmt" />
+        Total amount: <input id="totalAmt" type="number" min="2.75" step="0.01" name="totalAmt" />
       </div>
       <div class="row">
-        <input type="checkbox" name="newCard"/> New Card?
+        <input id="newCard" type="checkbox" name="newCard"/> New Card?
         <input type="submit" name="submit" value="Calculate" display="float:right"/>
       </div>
     </form></div>
     
   </body>
   <script>
-    require('./renderer.js')
+    require('./calculate.js');
+    function calculateFare() {
+      var x = document.getElementById("totalAmt").value;
+      var numRides = document.getElementById("numRides").value;
+      var newCard = document.getElementById("newCard").value;
+      console.log(x, numRides, newCard);
+    }
   </script>
 </html>
