@@ -3,6 +3,8 @@ html {
   background-color: #eee;
   font-family: Helvetica, Arial, sans-serif;
   cursor:pointer;
+  float:center;
+  text-align:center;
 }
 ::-webkit-scrollbar {
   width: 0 !important;
@@ -15,16 +17,23 @@ input {
 }
 .container {
   float:center;
+  text-align:center;
   display:flex;
-  justify-content:space-between;
+  justify-content:space-around;
   align-items:center;
   max-width:600px;
   background-color:#fff;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 1px 2px rgba(0, 0, 0, 0.2);
   padding:20px;
 }
 .row {
   display:flex;
   flex-grow:1;
-  margin: 10px 0;
+  margin: 20px 0;
+}
+.inline-field input,
+.inline-field label {
+  display: inline-block;
+  margin-bottom: 0; /* I added this after I posted my reply */
+  vertical-align: middle; /* Fixes any weird issues in Firefox and IE */
 }
