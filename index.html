@@ -6,10 +6,22 @@
     <link rel="stylesheet" href="base.css">
   </head>
   <body>
-    <h1>Hello world!</h1>
-    <p>Testing out the electron desktop app engine</p>
-    <p>Can I get the version of node?</p>
-    <script>document.write(process.versions.node)</script>
+    
+
+    <div class="container"><form>
+      <h2>How much do I load?</h2>
+      <div class="row">
+        Number of rides? <input type="number" min="1" step="1" name="numRides"/>
+      </div>
+      <div class="row">
+        Total amount: <input type="number" min="2.75" step="0.01" name="totalAmt" />
+      </div>
+      <div class="row">
+        <input type="checkbox" name="newCard"/> New Card?
+        <input type="submit" name="submit" value="Calculate" display="float:right"/>
+      </div>
+    </form></div>
+    
   </body>
   <script>
     require('./renderer.js')

@@ -7,3 +7,23 @@ html {
 ::-webkit-scrollbar {
   width: 0 !important;
 }
+input {
+  height:30px;
+  box-shadow: none;
+  border: 1px solid #333;
+  margin-left:10px;
+}
+.container {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  max-width:800px;
+  background-color:#fff;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding:20px;
+}
+.row {
+  display:flex;
+  flex-grow:1;
+  margin: 10px 0;
+}
