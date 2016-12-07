@@ -9,19 +9,21 @@
     
 
     <div class="container"><form onSubmit="calculateFare()">
+      
       <h2>How much do I load?</h2>
+
+      <div class="row">
+        Amount on card: <input id="amtCard" type="number" min="0" step="0.01" value="0.00" name="amtCard"/>
+        <div class="inline-field">
+          &nbsp;&nbsp;&nbsp;OR
+          <input id="newCard" type="checkbox" name="newCard"/><label for="newCard" style="margin-bottom:0;"> New Card?</label>
+        </div>
+      </div>
       <div class="row">
         Number of rides? <input id="numRides" type="number" min="1" step="1" name="numRides"/>
       </div>
-      <hr>or<hr>
       <div class="row">
-        Total amount: <input id="totalAmt" type="number" min="2.75" step="0.01" name="totalAmt" />
-      </div>
-      <br>
-      <div class="row">
-        <div class="inline-field">
-          <input id="newCard" type="checkbox" name="newCard"/><label for="newCard" style="margin-bottom:0;"> New Card?</label>
-        </div>
+
         <input type="submit" name="submit" value="Calculate" style="float:right; margin-left:auto"/>
       </div>
       <div id="answer"></div>
