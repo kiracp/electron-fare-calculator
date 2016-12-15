@@ -3,12 +3,113 @@
   <head>
     <meta charset="UTF-8">
     <title>Electron test</title>
-    <link rel="stylesheet" href="base.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/base.css">
+
+    <script src="https://use.fontawesome.com/8c1c2622a6.js"></script>
   </head>
   <body>
+
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--<a class="navbar-brand"><img src="assets/images/logo.png" alt="athenaNet"></a>-->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav" style="margin-left:50px">
+            <li><a href="#">Calendar <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Patients</a></li>
+            <li><a href="#">Claims</a></li>
+            <li><a href="#">Financials</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Quality</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i></a></li>
+          </ul>
+
+
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">username</a></li>
+            <li><a href="#">Logout</a></li>
+
+            <div class="hamburger">
+              <li><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+              <div class="dropdown-content" style="line-height:10px">
+                <a href="#">New Window</a>
+                <a href="#">New Tab</a>
+                <hr>
+                <a href="#">Find</a>
+                <a href="#">Print</a>
+                <a href="#">Zoom</a>
+                <hr>
+                <a href="#">Downloads</a>
+                <a href="#">Developer Tools</a>
+                <hr>
+                <a href="#">Settings</a>
+                <a href="#">Help</a>
+                <hr>
+                <a href="#">Exit</a>
+              </div>
+            </div>
+          </ul>
+
+          <!--
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Find patient">
+            </div>
+            <button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </form>
+          -->
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
     
 
-    <div class="container"><form onSubmit="calculateFare()">
+
+  <div class="side-nav">
+  <h4>SETTINGS</h4>
+  <ul>
+    <li class="selected">General</li>
+    <li>Accessibility</li>
+    <li>About</li>
+    <li>Advanced</li>
+  </ul>
+  </div>
+
+  <div class="main">
+  <h2>General Settings</h2>
+  <hr>
+  <br>
+  <p>Spell Check</p>
+  <div class="radio">
+    <label><input type="radio" name="rdio">Enable</label>
+    <br><small>Manage custom dictionary...</small>
+  </div>
+  <div class="radio">
+    <label><input type="radio" name="rdio">Disable</label>
+  </div>
+
+  <p> Description of settings go here </p>
+  <p> Description of settings go here </p>
+  <p> Description of settings go here </p>
+  </div>
+
+      <!--
       <h2>How much do I load?</h2>
       <div class="row">
         Number of rides? <input id="numRides" type="number" min="1" step="1" name="numRides"/>
@@ -26,7 +127,7 @@
       </div>
       <div id="answer"></div>
     </form></div>
-    
+    -->
   </body>
   <script>
     require('./calculate.js');
@@ -37,6 +138,9 @@
       console.log(x, numRides, newCard);
       var node = document.createTextNode(x);
       document.getElementById("answer").appendChild(node);
+    }
+    function selectLi() {
+
     }
   </script>
 </html>

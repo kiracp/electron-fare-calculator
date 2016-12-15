@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Facit-Regular';
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/Facit-Regular.otf);
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FR.woff) format('woff');
+  src:  url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FR.eotFR.eot?#iefix) format('embedded-opentype'),
+       url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FR.ttf) format('truetype');
+   font-style: normal;
+   font-weight: normal;
+}
+@font-face {
+  font-family: 'Facit-Bold';
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/Facit-Bold.otf);
+  src:   url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FB.woff) format('woff');
+   src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FB.eotFB.eot?#iefix) format('embedded-opentype'),
+       url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FB.ttf) format('truetype');
+   font-style: normal;
+   font-weight: normal;
+}
+@font-face {
+  font-family: 'Facit-BoldItalic';
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/Facit-BoldItalic.otf);
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/woff) format('woff');
+   src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FB-i.eotFB-i.eot?#iefix) format('embedded-opentype'),
+       url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FB-i.ttf) format('truetype');
+   font-style: normal;
+   font-weight: normal;
+}
+@font-face {
+  font-family: 'Facit-Extrabold';
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/Facit-Extrabold.otf);
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FXB.woff) format('woff');
+   src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FXB.eotFXB.eot?#iefix) format('embedded-opentype'),
+       url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FXB.ttf) format('truetype');
+   font-style: normal;
+   font-weight: normal;
+}
+@font-face {
+  font-family: 'Facit-ExtraboldItalic';
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/Facit-ExtraboldItalic.otf);
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FXB-i.woff) format('woff');
+   src:   url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FXB-i.eotFXB-i.eot?#iefix) format('embedded-opentype'),
+       url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FXB-i.ttf) format('truetype');
+   font-style: normal;
+   font-weight: normal;
+}
+@font-face {  
+   font-family: 'Facit-Extralight';
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/Facit-Extralight.otf);
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FXL.woff) format('woff');
+   src:   url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FXL.eotFXL.eot?#iefix) format('embedded-opentype'),
+       url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FXL.ttf) format('truetype');
+   font-style: normal;
+   font-weight: normal;
+}
+@font-face {
+  font-family: 'Facit-ExtralightItalic';
+  src:  url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FXL-i.woff) format('woff');
+   src:   url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FXL-i.eotFXL-i.eot?#iefix) format('embedded-opentype'),
+       url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FXL-i.ttf) format('truetype');
+   font-style: normal;
+   font-weight: normal;
+}
+@font-face {
+  font-family: 'Facit-Light';
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/Facit-Light.otf);
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FL.woff) format('woff');
+   src:   url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FL.eotFL.eot?#iefix) format('embedded-opentype'),
+       url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FL.ttf) format('truetype');
+   font-style: normal;
+   font-weight: normal;
+}
+@font-face {
+  font-family: 'Facit-LightItalic';
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/Facit-LightItalic.otf);
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FL-i.woff) format('woff');
+   src:   url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FL-i.eotFL-i.eot?#iefix) format('embedded-opentype'),
+       url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FL-i.ttf) format('truetype');
+   font-style: normal;
+   font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Facit-RegularItalic';
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/Facit-RegularItalic.otf);
+  src:        url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FR-i.woff) format('woff');
+   src:   url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FR-i.eotFR-i.eot?#iefix) format('embedded-opentype'),
+       url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FR-i.ttf) format('truetype');
+   font-style: normal;
+   font-weight: normal;
+}
+@font-face {
+  font-family: 'Facit-Semibold';
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/Facit-Semibold.otf);
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FSB.woff) format('woff');
+   src:   url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FSB.eotFSB.eot?#iefix) format('embedded-opentype'),
+       url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FSB.ttf) format('truetype');
+   font-style: normal;
+   font-weight: normal;
+}
+@font-face {
+  font-family: 'Facit-SemiboldItalic';
+  src: url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/Facit-SemiboldItalic.otf);
+  src:        url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FSB-i.woff) format('woff');
+   src:   url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FSB-i.eotFSB-i.eot?#iefix) format('embedded-opentype'),
+       url(http://share.athenahealth.com/tweety/UX/Resources/Mockup%20Resources/Facit-Family/Facit-Axure/FSB-i.ttf) format('truetype');
+   font-style: normal;
+   font-weight: normal;
+}
