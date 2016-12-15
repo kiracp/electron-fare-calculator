@@ -1,7 +1,6 @@
 @import url('facit.css');
 @import 'https://fonts.googleapis.com/css?family=Roboto:400,700';
 
-
 html, body {
   background-color:white;
   color:#777;
@@ -10,12 +9,12 @@ html, body {
 }
 ::-webkit-scrollbar {
   width: 0 !important;
-
 }
 h1, h2 {
     font-family: 'Facit-Semibold';
 }
 
+/* Top nav formatting */
 .navbar-header {
   margin-bottom:0;
 }
@@ -74,42 +73,25 @@ h1, h2 {
   padding:0;
   line-height: 0;
 }
-input {
-  height:30px;
-  box-shadow: none;
-  border: 1px solid #333;
-  margin-left:10px;
+.navbar-default .navbar-nav > .dropdown > li > a {
+  color: #E3E3F2;
+  padding: 12px 10px;
 }
-.container {
-  float:center;
-  text-align:center;
-  display:flex;
-  justify-content:space-around;
-  align-items:center;
-  max-width:600px;
-  background-color:#fff;
-  box-shadow: 2px 2px 1px 2px rgba(0, 0, 0, 0.2);
-  padding:20px;
+.navbar-default .navbar-nav > .dropdown > li > a:hover,
+.navbar-default .navbar-nav > .dropdown > li > a:focus {
+  color: #fff;
+  background-color: transparent;
 }
 
-.row {
-  display:flex;
-  flex-grow:1;
-  margin: 20px 0;
-}
-.inline-field input,
-.inline-field label {
-  display: inline-block;
-  margin-bottom: 0; /* I added this after I posted my reply */
-  vertical-align: middle; /* Fixes any weird issues in Firefox and IE */
-}
+
+/* Side nav */
 .side-nav {
   top:40px;
   left:0px;
   position:fixed;
   width: 175px;
   min-height: 100%;
-  background-color:#ddd;
+  background-color:#f1f1f1;
   text-align:center;
 }
 .side-nav > h4 {
@@ -143,33 +125,30 @@ input {
 .side-nav > ul > li:hover {
   background-color:#eee;
 }
-.main {
-  margin-left:220px;
-  margin-top:70px;
-  margin-right:60px;
-}
-.main > h2 {
-  font-size:24px;
-}
+
+/* Hamburger menu */
 .dropdown {
     position: relative;
     display: inline-block;
+    color:white;
 }
 .dropdown-content {
-    display: block;
+    display: none;
     position: absolute;
+    margin-top:33px;
+    right:10px;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 12px 20px;
     text-decoration: none;
     display: block;
 }
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #f1f1f1;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -180,4 +159,38 @@ input {
 .dropdown-content > hr {
   margin:0;
   padding:0;
+}
+.container {
+  float:center;
+  text-align:center;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  max-width:600px;
+  background-color:#fff;
+  box-shadow: 2px 2px 1px 2px rgba(0, 0, 0, 0.2);
+  padding:20px;
+}
+
+.row {
+  display:flex;
+  flex-grow:1;
+  margin: 20px 0;
+}
+.inline-field input,
+.inline-field label {
+  display: inline-block;
+  margin-bottom: 0; 
+  vertical-align: middle;
+}
+
+/* Main content */
+
+.main {
+  margin-left:220px;
+  margin-top:70px;
+  margin-right:60px;
+}
+.main > h2 {
+  font-size:24px;
 }

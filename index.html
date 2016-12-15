@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <title>Electron test</title>
+
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
     <link rel="stylesheet" href="css/base.css">
 
     <script src="https://use.fontawesome.com/8c1c2622a6.js"></script>
@@ -39,15 +39,12 @@
             <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i></a></li>
           </ul>
 
-
-
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">username</a></li>
             <li><a href="#">Logout</a></li>
 
-            <div class="hamburger">
-              <li><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
-              <div class="dropdown-content" style="line-height:10px">
+            <div class="dropdown">
+              <div class="dropdown-content">
                 <a href="#">New Window</a>
                 <a href="#">New Tab</a>
                 <hr>
@@ -63,24 +60,15 @@
                 <hr>
                 <a href="#">Exit</a>
               </div>
+
+              <li><a href="#"><i style="padding-top:14px" class="fa fa-ellipsis-v" aria-hidden="true"></i></a></li>
+              
             </div>
           </ul>
-
-          <!--
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Find patient">
-            </div>
-            <button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
-          </form>
-          -->
-
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
     
-
-
   <div class="side-nav">
   <h4>SETTINGS</h4>
   <ul>
@@ -96,32 +84,10 @@
   <hr>
   <br>
   <p>Spell Check</p>
-  <div class="radio">
-    <label><input type="radio" name="rdio">Enable</label>
-    <br><small>Manage custom dictionary...</small>
-  </div>
-  <div class="radio">
-    <label><input type="radio" name="rdio">Disable</label>
-  </div>
-
   <p> Description of settings go here </p>
   <p> Description of settings go here </p>
   <p> Description of settings go here </p>
   </div>
 
   </body>
-  <script>
-    require('./calculate.js');
-    function calculateFare() {
-      var x = document.getElementById("totalAmt").value;
-      var numRides = document.getElementById("numRides").value;
-      var newCard = document.getElementById("newCard").value;
-      console.log(x, numRides, newCard);
-      var node = document.createTextNode(x);
-      document.getElementById("answer").appendChild(node);
-    }
-    function selectLi() {
-
-    }
-  </script>
 </html>
